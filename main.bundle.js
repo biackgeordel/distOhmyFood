@@ -1,71 +1,56 @@
-/******/ (() => {
-  // webpackBootstrap
-  /******/ "use strict";
-  /******/ // The require scope
-  /******/ var __webpack_require__ = {};
-  /******/
-  /************************************************************************/
-  /******/ /* webpack/runtime/global */
-  /******/ (() => {
-    /******/ __webpack_require__.g = (function () {
-      /******/ if (typeof globalThis === "object") return globalThis;
-      /******/ try {
-        /******/ return this || new Function("return this")();
-        /******/
-      } catch (e) {
-        /******/ if (typeof window === "object") return window;
-        /******/
-      }
-      /******/
-    })();
-    /******/
-  })();
-  /******/
-  /******/ /* webpack/runtime/publicPath */
-  /******/ (() => {
-    /******/ var scriptUrl;
-    /******/ if (__webpack_require__.g.importScripts)
-      scriptUrl = __webpack_require__.g.location + "";
-    /******/ var document = __webpack_require__.g.document;
-    /******/ if (!scriptUrl && document) {
-      /******/ if (document.currentScript)
-        /******/ scriptUrl = document.currentScript.src;
-      /******/ if (!scriptUrl) {
-        /******/ var scripts = document.getElementsByTagName("script");
-        /******/ if (scripts.length)
-          scriptUrl = scripts[scripts.length - 1].src;
-        /******/
-      }
-      /******/
-    }
-    /******/ // When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
-    /******/ // or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
-    /******/ if (!scriptUrl)
-      throw new Error("Automatic publicPath is not supported in this browser");
-    /******/ scriptUrl = scriptUrl
-      .replace(/#.*$/, "")
-      .replace(/\?.*$/, "")
-      .replace(/\/[^\/]+$/, "/");
-    /******/ __webpack_require__.p = scriptUrl;
-    /******/
-  })();
-  /******/
-  /************************************************************************/
-  var __webpack_exports__ = {}; // CONCATENATED MODULE: ./src/assets/images/jay-wennington-N_Y88TWmGwA-unsplash.jpg
+/******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
+/******/ 	// The require scope
+/******/ 	var __webpack_require__ = {};
+/******/ 	
+/************************************************************************/
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
+/************************************************************************/
+var __webpack_exports__ = {};
 
-  const jay_wennington_N_Y88TWmGwA_unsplash_namespaceObject =
-    __webpack_require__.p +
-    "asset/images/jay-wennington-N_Y88TWmGwA-unsplash.jpg"; // CONCATENATED MODULE: ./src/assets/images/lanote.jpg
-  const lanote_namespaceObject =
-    __webpack_require__.p + "asset/images/lanote.jpg"; // CONCATENATED MODULE: ./src/assets/images/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg
-  const louis_hansel_shotsoflouis_qNBGVyOCY8Q_unsplash_namespaceObject =
-    __webpack_require__.p +
-    "asset/images/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"; // CONCATENATED MODULE: ./src/assets/images/stil-u2Lp8tXIcjw-unsplash.jpg
-  const stil_u2Lp8tXIcjw_unsplash_namespaceObject =
-    __webpack_require__.p + "asset/images/stil-u2Lp8tXIcjw-unsplash.jpg"; // CONCATENATED MODULE: ./src/assets/images/toa-heftiba-DQKerTsQwi0-unsplash.jpg
-  const toa_heftiba_DQKerTsQwi0_unsplash_namespaceObject =
-    __webpack_require__.p + "asset/images/toa-heftiba-DQKerTsQwi0-unsplash.jpg"; // CONCATENATED MODULE: ./src/features/data.js
-  const resto = `[
+;// CONCATENATED MODULE: ./src/assets/images/jay-wennington-N_Y88TWmGwA-unsplash.jpg
+const jay_wennington_N_Y88TWmGwA_unsplash_namespaceObject = __webpack_require__.p + "asset/images/jay-wennington-N_Y88TWmGwA-unsplash.jpg";
+;// CONCATENATED MODULE: ./src/assets/images/lanote.jpg
+const lanote_namespaceObject = __webpack_require__.p + "asset/images/lanote.jpg";
+;// CONCATENATED MODULE: ./src/assets/images/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg
+const louis_hansel_shotsoflouis_qNBGVyOCY8Q_unsplash_namespaceObject = __webpack_require__.p + "asset/images/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg";
+;// CONCATENATED MODULE: ./src/assets/images/stil-u2Lp8tXIcjw-unsplash.jpg
+const stil_u2Lp8tXIcjw_unsplash_namespaceObject = __webpack_require__.p + "asset/images/stil-u2Lp8tXIcjw-unsplash.jpg";
+;// CONCATENATED MODULE: ./src/assets/images/toa-heftiba-DQKerTsQwi0-unsplash.jpg
+const toa_heftiba_DQKerTsQwi0_unsplash_namespaceObject = __webpack_require__.p + "asset/images/toa-heftiba-DQKerTsQwi0-unsplash.jpg";
+;// CONCATENATED MODULE: ./src/features/data.js
+const resto = `[
     {
     "_id":1,
     "nom":"La palette du goût",
@@ -329,28 +314,41 @@
     
             }
     }
-]`; // CONCATENATED MODULE: ./src/index.js
-  const data = JSON.parse(resto);
-  const presentationResto = data.map((element) => {
-    const { _id, nom, ville, description, urlImage } = element;
-    return {
-      _id,
-      nom,
-      ville,
-      description,
-      urlImage,
-    };
-  });
-  console.log(presentationResto);
-  console.log(data);
-  function full() {
-    const box = document.querySelector(".box-presentation");
-    box.style.background =
-      "url('./asset/images/jay-wennington-N_Y88TWmGwA-unsplash.jpg') center center/cover";
-    const list = presentationResto.map((element) => {
-      const resto = document.createElement("div");
-      resto.classList.add("resto");
-      resto.innerHTML = `
+]`;
+;// CONCATENATED MODULE: ./src/index.js
+
+
+
+
+
+
+
+const data = JSON.parse(resto);
+const presentationResto = data.map(element => {
+  const {
+    _id,
+    nom,
+    ville,
+    description,
+    urlImage
+  } = element;
+  return {
+    _id,
+    nom,
+    ville,
+    description,
+    urlImage
+  };
+});
+console.log(presentationResto);
+console.log(data);
+function full() {
+  const box = document.querySelector(".box-presentation");
+  box.style.background = "url('./asset/images/jay-wennington-N_Y88TWmGwA-unsplash.jpg') center center/cover";
+  const list = presentationResto.map(element => {
+    const resto = document.createElement("div");
+    resto.classList.add("resto");
+    resto.innerHTML = `
                 <div class="element-resto">
                   <img
                     src="${element.urlImage}"
@@ -374,21 +372,21 @@
                   </div> 
                 </div>
     `;
-      return resto;
+    return resto;
+  });
+  const listResto = document.querySelector(".list-resto");
+  listResto.append(...list);
+  const btnConsulter = listResto.querySelectorAll(".btn-orangered");
+  console.log(btnConsulter);
+  btnConsulter.forEach(element => {
+    console.log(element);
+    element.addEventListener("click", event => {
+      console.log(event.target.dataset.id);
+      const id = event.target.dataset.id;
+      location.assign(`./resto.html?id=${id}`);
     });
-    const listResto = document.querySelector(".list-resto");
-    listResto.append(...list);
-    const btnConsulter = listResto.querySelectorAll(".btn-orangered");
-    console.log(btnConsulter);
-    btnConsulter.forEach((element) => {
-      console.log(element);
-      element.addEventListener("click", (event) => {
-        console.log(event.target.dataset.id);
-        const id = event.target.dataset.id;
-        location.assign(`./resto.html?id=${id}`);
-      });
-    });
-  }
-  full();
-  /******/
-})();
+  });
+}
+full();
+/******/ })()
+;
